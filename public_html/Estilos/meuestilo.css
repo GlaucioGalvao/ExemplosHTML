@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    color: green;
+}
+
+input, textarea, select {
+    color: blue;
+ }
+ 
+ select, textarea {
+     border: none;
+ }
+ #endereco {
+     color: brown;
+     font-weight: bolder;
+ }
+ .sexo {
+     color: purple;
+     font-weight: bold;
+     font-size: 16pt;
+}
+.borda-estilizada {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(55, 42, 0);
+    
+}
+
+.fonte-estilizada {
+    font-family: "comic sans ms";
+    font-size: 18pt;
+    color: chartreuse;
+}
+
+.borda-arredondada {
+    border-radius: 0px 5px 10px 15px;
+}
+ 

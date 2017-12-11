@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>Formulário de Pesquisa de Votos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>FORMULÁRIO DE PESQUISA DE VOTOS</h1>
+    </body>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="endereco" placeholder="Seu endereço aqui...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bairro">Bairro:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="endereco" placeholder="Seu bairro aqui...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade:</label>                        
+                    </td>
+                    <td>
+                        <select name="chapa" id="chapa">
+                            <option disabled selected> Escolha a sua cidade</option>
+                            <optgroup label="Rio Grande do Norte">
+                                <option value="natal">Natal</option>
+                                <option value="parnamirim">Parnamirim</option>
+                                <option value="mossoro">Mossoró</option>
+                            </optgroup>
+                            <optgroup label="Paraiba">
+                                <option value="jampa">João Pessoa</option>
+                                <option value="campina">Campina Grande</option>
+                                <option value="patos">Patos</option>
+                            </optgroup>
+                            <optgroup label="Pernambuco">
+                                <option value="recife">Recife</option>
+                                <option value="caruaru">Caruaru</option>
+                                <option value="limoeiro">Limoeiro</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <td>
+                    <label for="nacimento">Nascimento:</label>
+                </td>
+                <td>
+                    <input type="date" name="nascimento" id="nascimento">
+                </td>
+                <tr>
+                    <td>
+                        <label for="chapa">Vota em qual CHAPA?:</label>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label><input type="checkbox" name="chapa1" valeu="chapa1">CHAPA 1</label>
+                                </td>
+                                <td>
+                                    <label><input type="checkbox" name="chapa2" valeu="chapa2">CHAPA 2</label>
+                                </td>
+                                <td>
+                                    <label><input type="checkbox" name="chapa3" valeu="chapa3">CHAPA 3</label>
+                                </td>
+                                <td>
+                                    <label><input type="checkbox" name="chapa4" valeu="chapa4">CHAPA 4</label>
+                                </td>    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label type="checkbox" name="antonio" valeu="antonio">Antônio Marcos</label>
+                                </td>
+                                <td>
+                                    <label type="checkbox" name="antonio" valeu="antonio">Antônio José</label>
+                                </td>
+                                <td>
+                                    <label type="checkbox" name="marcos" valeu="marcos">Marcos Antônio</label>
+                                </td>
+                                <td>
+                                    <label type="checkbox" name="jose" valeu="jose">Antônio José</label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <label type="checkbox" name="maria" valeu="maria">Maria Eduarda</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label type="checkbox" name="andre" valeu="andre">André Marques</label>
+                                </td>
+                            </tr>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <label type="checkbox" name="francisco" valeu="francisco">Francisco José</label>
+                                </td>
+                            </tr>
+                        </table>
+<!--                        <label><input type="checkbox" name="chapa1" valeu="chapa1">CHAPA 1</label>
+                        <label><input type="checkbox" name="filme" valeu="filme">Filme</label>
+                        <label><input type="checkbox" name="noticias" valeu="noticias">Notícias</label>
+                        <label><input type="checkbox" name="livro" valeu="livro">Livro</label>-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="20">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir" onclick="alert('Botão de autodestruição!!!');"> 
+                    </td>    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

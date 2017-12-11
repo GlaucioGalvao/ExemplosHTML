@@ -1,0 +1,126 @@
+
+<html>
+    <head>
+        <title>Exemplo Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Estilos/meuestilo.css">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="endereco">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade:</label>                        
+                    </td>
+                    <td>
+                        <select name="cidade" id="cidade">
+                            <option disabled selected> Escolha a Cidade</option>
+                            <optgroup label="Rio Grande do Norte">
+                            <option value="natal">Natal</option>
+                            <option value="parnamirim">Parnamirim</option>
+                            <option value="mossoro">Mossoró</option>
+                            </optgroup>
+                            <optgroup label="Paraiba">
+                            <option value="jampa">João Pessoa</option>
+                            <option value="campina">Campina Grande</option>
+                            <option value="patos">Patos</option>
+                            </optgroup>
+                            <optgroup label="Pernambuco">
+                            <option value="recife">Recife</option>
+                            <option value="caruaru">Caruaru</option>
+                            <option value="limoeiro">Limoeiro</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <td>
+                     <label for="nacimento">Nascimento:</label>
+                </td>
+                <td>
+                     <input type="date" name="nascimento" id="nascimento">
+                </td>
+                <tr>
+                <td>
+                     <label for="data-agendamento">Data Agendamento:</label>
+                </td>
+                
+                <td>
+                     <input type="date" name="data-agendamento" id="data-agendamento">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                     <label for="hora-agendamento">Hora Agendamento:</label>
+                </td>
+                
+                <td>
+                     <input type="time" name="hora-agendamento" id="data-agendamento">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                     <label for="satisfacao">Satisfação:</label>
+                </td>
+                
+                <td>
+                     <input type="range" name="satisfacao" id="satisfacao" value="5" min="0" max="5">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                     <label for="sexo">Sexo:</label>
+                </td>
+                
+                <td>
+                     <label class="sexo"><input type="radio" name="sexo" valeu="masculino" id="sexo" checked>Masculino</label>
+                     <label class="sexo"><input type="radio" name="sexo" valeu="feminino">Feminino</label>
+                     <label class="sexo"><input type="radio" name="sexo" valeu="outros">Outros</label>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                     <label for="interesse">Interesse:</label>
+                </td>
+                <td>
+                    <label><input type="checkbox" name="esporte" valeu="esporte" id="sexo" checked>Esporte</label>
+                    <label><input type="checkbox" name="filme" valeu="filme">Filme</label>
+                    <label><input type="checkbox" name="noticias" valeu="noticias">Notícias</label>
+                    <label><input type="checkbox" name="livro" valeu="livro">Livro</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="interesse">Interesse:</label>
+                    </td>
+                    <td>
+                        <textarea class="borda-arredondada borda-estilizada" name="sugestao" id="sugestao" maxlength="100" rows="10" style="resize: none;"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="20">
+                        <input class="fonte-estilizada" type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir" onclick="alert('Botão de autodestruição!!!');"> 
+                    </td>    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
