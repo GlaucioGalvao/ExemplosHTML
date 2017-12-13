@@ -10,15 +10,21 @@
             }
             #div1 {
                 background-color: lightblue;
-                widht: 200px;
+                widht: 33.33%;
                 height: 300px;
                 float: left;
                               
             }
             #div2 {
                 background-color: lightcoral;
-                widht: 200px;
+                widht: 33.33%;
                 height: 300px;
-                float: right
+                float: left;
+            }
+            #div3 {
+                background-color: lightgray;
+                widht: 33.33%;
+                height: 300px;
+                float: left;
             }
             

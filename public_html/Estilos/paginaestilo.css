@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#pagina {
+    width: 900px;
+    height: 1200px;
+    background-color: lightblue;
+    margin: auto;
+}
+#cabecalho{
+    width: 100%;
+    height: 10%;
+    background-color: lightcoral;
+}
+#corpo {
+    width: 100%;
+    height: 80%;
+    background-color: lightgoldenrodyellow;
+}
+#rodape {
+    width: 100%;
+    height: 10%;
+    background-color: lightcyan;
+}
+#menu-lateral {
+    width: 20%;
+    height: 100%;
+    background-color: lightgreen;
+    float: left;
+
+}
+#conteudo-lateral {
+    width: 80%;
+    height: 100%;
+    background-color: lightsalmon;
+    float: left;
+}
+
